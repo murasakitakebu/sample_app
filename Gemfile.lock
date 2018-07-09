@@ -69,6 +69,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    cowsay (0.3.0)
     crass (1.0.4)
     erubi (1.7.1)
     execjs (2.7.0)
@@ -217,6 +218,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  cowsay
   ffi (= 1.9.18)
   guard
   jbuilder (~> 2.5)
