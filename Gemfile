@@ -13,7 +13,7 @@ gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', :group => [:development, :test]
 # Use postgreSQL as the database for Active Record
-gem 'pg', :group => :production
+
 
 gem 'cowsay'
 # Use Puma as the app server
@@ -63,6 +63,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :production do
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
+end
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
