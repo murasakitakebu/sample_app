@@ -10,9 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190502063809) do
+ActiveRecord::Schema.define(version: 20200402140650) do
 
 # Could not dump table "users" because of following StandardError
-#   Unknown type 'false' for column 'activated'
+#   Unknown type 'stringreset_sent_at' for column 'reset_digest'
 
 end
