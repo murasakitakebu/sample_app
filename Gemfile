@@ -17,6 +17,7 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'sqlite3', :group => [:development, :test]
 # Use postgreSQL as the database for Active Record
 
+gem 'mini_racer'
 
 gem 'cowsay'
 # Use Puma as the app server
