@@ -88,7 +88,7 @@ GEM
     execjs (2.7.0)
     faker (1.7.3)
       i18n (~> 0.5)
-    ffi (1.9.18)
+    ffi (1.9.24)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
     fog (1.42.0)
@@ -439,7 +439,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   cowsay
   faker (= 1.7.3)
-  ffi (= 1.9.18)
+  ffi (= 1.9.24)
   fog (= 1.42)
   guard
   jbuilder (~> 2.5)
